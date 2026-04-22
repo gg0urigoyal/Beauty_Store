@@ -165,3 +165,26 @@ footer{background:#111;padding:60px 5% 30px;color:rgba(255,255,255,.5);}
 /* UTILS */
 .text-rose{color:var(--rose);}
 .bg-rose-light{background:var(--rose-light);}
+
+/* PRODUCT PAGE REFINEMENTS */
+.product-page .product-section-gap{padding-top:56px;}
+.product-page .product-card-section .card-info{text-align:center;}
+.product-page .product-card-section .card-price-row,
+.product-page .product-card-section .card-stars{justify-content:center;}
+.product-page .product-card-section .card-actions{justify-content:center;}
+.product-page .product-card-section .card-action-btn{text-align:center;}
+
+@media (min-width: 901px){
+  .product-page .product-media-sticky{
+    position:sticky;
+    top:100px;
+    align-self:start;
+  }
+}
+
+@media (max-width: 900px){
+  .product-page .product-media-sticky{
+    position:relative;
+    top:auto;
+  }
+}
